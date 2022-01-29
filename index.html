@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="author" content="Oven Dev 🍞">
+<meta name="publisher" content="Oven Dev 🍞">
+<meta name="copyright" content="Oven Dev 🍞">
+<meta name="description" content="My sweet website 🍞" />
+<meta name="keywords" content="website, blog, oven, bread">
+
+<meta property="og:title" content="Oven Dev 🍞"> 
+<meta property="og:description" content="My sweet website 🍞">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/66066723">
+<meta property="og:url" content="http://ovendev.github.io">
+<meta name="twitter:card" content="https://avatars.githubusercontent.com/u/66066723">
+
+<title>Oven Dev 🍞</title>
+<link rel="icon" href="https://avatars.githubusercontent.com/u/66066723">
+
+<link href="oven.css" rel="stylesheet">
+</head>
+
+<body id="body">
+
+<center>
+<br><br><br><br><br><br><br><br><br><br><br>
+<h1 class="pagetitle"><img id="oven" class="rotating" onclick="stopLoop('oven')" height="60" src="https://avatars.githubusercontent.com/u/66066723">  Hey there, I'm Oven Dev! 🍞</h1>
+
+<main>
+I bake bread and develop stuff.
+<br><br><br>
+<a href="/projects.html"><button>Projects 🡺</button></a><br><br>
+<a href="/contact.html"><button>Contact 🢆</button></a>
+
+</main>
+
+</center>
+</body>
+
+<script>
+    function stopLoop(id) {
+    if (document.getElementById(id).className === "rotating") {
+       document.getElementById(id).className = "stoppedRotating"
+    } else {
+       document.getElementById(id).className = "rotating"   
+    }
+  }
+</script>
+
+<br><br><br><br><br><br><br><br>
+<center>
+   <footer>© 2022 - Oven Dev</footer>
+</center>
+
+</html>
